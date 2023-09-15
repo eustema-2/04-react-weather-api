@@ -1,0 +1,24 @@
+.weather {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  color: #fff;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 1.5rem;
+}
+.weather__status {
+  display: flex;
+  align-items: center;
+}
+.weather__icon {
+  padding-right: 0.5rem;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.weather__temp {
+  font-size: 3rem;
+  display: flex;
+  padding-left: 0.5rem;
+}
